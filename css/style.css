@@ -12,11 +12,18 @@
 }
 
 
+.nav__barra a {
+    text-decoration: none;
+
+}
+
 
 body {
     background: var(--color-one);
     color: var(--color-three);
     font-family: Aceh-Light;
+    margin: 0 1rem 0 ;
+
 }
 
 .logo img{
@@ -45,9 +52,32 @@ body {
     list-style: none;
 }
 
+
+
 footer {
     font-size: 0.7rem;
 }
-/* .main-container {
+.main-container {
     border: var(--borde);
-} */
+
+    
+    margin-top: 2rem ;
+}
+
+.main-container h3 {
+    padding: 0.5rem;
+    text-align: center;
+    background-color: var(--color-two);
+}
+
+.portafolio {
+    border: var(--borde);
+
+    padding: 0.7rem;
+
+}
+
+.portafolio__procesos ul{
+    list-style: none;
+    text-align:start;
+}
